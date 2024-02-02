@@ -4,11 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Student {
-    //Step 1: Create a Java class "Student" that should have the following properties: First name, Last name, Student ID.
+    // Step 1:
+    // Create a Java class "Student" that should have the following properties:
+    // First name, Last name, Student ID.
     private String firstName;
     private String lastName;
     private int studentID;
-    //Bonus Course: Add a method to the Student class to add courses to the student (courses in which the student is participating).
+    // Bonus Course
     private List<Course> courseList = new ArrayList<>();
 
     public Student(String firstName, String lastName, int studentID) {
@@ -17,7 +19,9 @@ public class Student {
         this.studentID = studentID;
     }
 
-    //Bonus Course: Add a method to the Student class to add courses to the student (courses in which the student is participating).
+    // Bonus Course:
+    // Add a method to the Student class to add courses to the student
+    // (courses in which the student is participating).
     public void addCourseToStudent(Course course){
         courseList.add(course);
     }

@@ -1,7 +1,9 @@
 package com.github;
 
 public class Course {
-    //Bonus Course: Expand the Java-List project with a class called "Course" that has the following properties: course name, instructor, room.
+    // Bonus Course:
+    // Expand the Java-List project with a class called "Course"
+    // that has the following properties: course name, instructor, room.
     private String courseName;
     private String instructor;
     private int room;
